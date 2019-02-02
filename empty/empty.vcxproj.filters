@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="basic">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="func">
+      <UniqueIdentifier>{74c87d4f-5cd6-4e60-877f-50dc9c969a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj">
+      <UniqueIdentifier>{c110718c-d168-4637-9f56-718e07d6953b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{5dada492-8af0-4117-9384-d54b3ee06db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{c429a60d-929e-4aa3-8e5d-b4984aae6f62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>basic</Filter>
+    </ClCompile>
+    <ClCompile Include="device.cpp">
+      <Filter>basic</Filter>
+    </ClCompile>
+    <ClCompile Include="wndC.cpp">
+      <Filter>basic</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>basic</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="write.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>func</Filter>
+    </ClCompile>
+    <ClCompile Include="obj.cpp">
+      <Filter>obj</Filter>
+    </ClCompile>
+    <ClCompile Include="sample.cpp">
+      <Filter>sample</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>basic</Filter>
+    </ClInclude>
+    <ClInclude Include="device.h">
+      <Filter>basic</Filter>
+    </ClInclude>
+    <ClInclude Include="wndC.h">
+      <Filter>basic</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>basic</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="write.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>func</Filter>
+    </ClInclude>
+    <ClInclude Include="obj.h">
+      <Filter>obj</Filter>
+    </ClInclude>
+    <ClInclude Include="sample.h">
+      <Filter>sample</Filter>
+    </ClInclude>
+    <ClInclude Include="objHeader.h">
+      <Filter>obj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Spixel.txt">
+      <Filter>shader</Filter>
+    </Text>
+    <Text Include="SGeometry.txt">
+      <Filter>shader</Filter>
+    </Text>
+    <Text Include="Svertex.txt">
+      <Filter>shader</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
