@@ -290,7 +290,7 @@ bool Object_DX::PreRender(UINT iVertxSize)
 	g_pD3dContext->PSSetShaderResources(0, 1, m_pTextureSRV.GetAddressOf());
 
 	ID3D11SamplerState* SS[1];
-	SS[0] = m_pSamplerState;
+	SS[0] = m_pSamplerState.Get();
 	g_pD3dContext->PSSetSamplers(0, 1, SS);
 
 	g_pD3dContext->OMSetBlendState(m_pAlphaBlend.Get(), 0, -1);
